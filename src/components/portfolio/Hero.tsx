@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ArrowRight, Download, Mail, Sparkles } from "lucide-react";
-import portrait from "@/assets/gv-portrait.png.asset.json";
+import portrait from "@/assets/gv-portrait.png";
 import { COMPANIES } from "./data";
 import { CompanyBadge } from "./CompanyBadge";
 

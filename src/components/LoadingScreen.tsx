@@ -1,6 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import logo from "@/assets/gv-logo.png.asset.json";
+import logo from "@/assets/gv-logo.png";
 
 export function LoadingScreen() {
   const [done, setDone] = useState(false);

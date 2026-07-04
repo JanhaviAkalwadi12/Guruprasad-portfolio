@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/gv-logo.png.asset.json";
+import logo from "@/assets/gv-logo.png";
 import { Download } from "lucide-react";
 
 const links = [
