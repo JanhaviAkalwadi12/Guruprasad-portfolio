@@ -22,10 +22,17 @@ export function Experience() {
           {TIMELINE.map((c, i) => (
             <motion.article
               key={c.id}
+<<<<<<< HEAD
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-12% 0px -8% 0px" }}
               transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1], delay: i * 0.04 }}
+=======
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{ duration: 0.6, delay: i * 0.05 }}
+>>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
               className="group relative md:pl-20"
             >
               {/* Node */}

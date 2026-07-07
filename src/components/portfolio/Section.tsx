@@ -18,10 +18,17 @@ export function Section({
     <section id={id} className="relative py-24 md:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <motion.div
+<<<<<<< HEAD
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-15% 0px -10% 0px" }}
           transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+=======
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.7 }}
+>>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
           className="mb-14 max-w-3xl"
         >
           {eyebrow && (

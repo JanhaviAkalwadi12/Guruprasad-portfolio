@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 import logo from "@/assets/gv-logo.png.asset.json";
+=======
+import logo from "@/assets/gv-logo.png";
+import { Download } from "lucide-react";
+>>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
 
 const links = [
   { label: "Home", href: "#home" },
@@ -48,7 +53,11 @@ export function Navbar() {
           href="#contact"
           className="group relative hidden overflow-hidden rounded-xl border border-white/15 bg-white/5 px-4 py-2 text-xs font-medium text-white transition hover:border-white/30 md:inline-flex md:items-center md:gap-2"
         >
+<<<<<<< HEAD
           Get in Touch
+=======
+          <Download className="h-3.5 w-3.5" /> Download Resume
+>>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
           <span className="pointer-events-none absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
         </a>
       </div>

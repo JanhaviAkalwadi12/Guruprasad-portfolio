@@ -81,6 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Assistant Sales Executive at Godrej Consumer Products. 8+ years driving FMCG growth across HUL, ITC, Parle, Himalaya and Godrej." },
       { name: "author", content: "Guruprasad H Vankalakunti" },
       { property: "og:title", content: "Guruprasad H Vankalakunti — FMCG Sales & Marketing Executive" },
+<<<<<<< HEAD
       { property: "og:description", content: "Assistant Sales Executive at Godrej Consumer Products. 8+ years driving FMCG growth across HUL, ITC, Parle, Himalaya and Godrej." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -89,6 +90,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:description", content: "Assistant Sales Executive at Godrej Consumer Products. 8+ years driving FMCG growth across HUL, ITC, Parle, Himalaya and Godrej." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/da5b5343-4a39-45a6-8b9f-a9ae65a01156/id-preview-af2f7aaa--ea3372ca-7caf-4453-b4c8-412cb209a96e.lovable.app-1783403072587.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/da5b5343-4a39-45a6-8b9f-a9ae65a01156/id-preview-af2f7aaa--ea3372ca-7caf-4453-b4c8-412cb209a96e.lovable.app-1783403072587.png" },
+=======
+      { property: "og:description", content: "Driving FMCG growth through strategic sales & marketing excellence." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@Lovable" },
+>>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
     ],
     links: [
       {

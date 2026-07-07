@@ -5,6 +5,7 @@ export function AuroraBackground() {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+<<<<<<< HEAD
     let tx = 50;
     let ty = 30;
     let cx = 50;
@@ -27,6 +28,16 @@ export function AuroraBackground() {
       cancelAnimationFrame(raf);
       window.removeEventListener("mousemove", onMove);
     };
+=======
+    const onMove = (e: MouseEvent) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+      el.style.setProperty("--mx", `${x}%`);
+      el.style.setProperty("--my", `${y}%`);
+    };
+    window.addEventListener("mousemove", onMove);
+    return () => window.removeEventListener("mousemove", onMove);
+>>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
   }, []);
   return (
     <div className="pointer-events-none fixed inset-0 -z-10 overflow-hidden">
