@@ -1,10 +1,6 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
-<<<<<<< HEAD
-import logo from "@/assets/gv-logo.png.asset.json";
-=======
 import logo from "@/assets/gv-logo.png";
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
 
 export function LoadingScreen() {
   const [done, setDone] = useState(false);
@@ -29,7 +25,7 @@ export function LoadingScreen() {
               className="relative"
             >
               <div className="absolute -inset-8 rounded-full bg-fuchsia-500/30 blur-3xl animate-pulse-glow" />
-              <img src={logo.url} alt="GV" className="relative h-32 w-32 rounded-2xl object-cover ring-1 ring-white/20" />
+              <img src={logo} alt="GV" className="relative h-32 w-32 rounded-2xl object-cover ring-1 ring-white/20" />
             </motion.div>
             <motion.div
               initial={{ scaleX: 0 }}

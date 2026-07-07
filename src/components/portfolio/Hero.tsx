@@ -1,8 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
-<<<<<<< HEAD
 import { lazy, Suspense, useEffect, useState } from "react";
 import { ArrowRight, Mail, Sparkles } from "lucide-react";
-import portrait from "@/assets/gv-portrait.png.asset.json";
+import portrait from "@/assets/gv-portrait.png";
 import { COMPANIES } from "./data";
 import { CompanyBadge } from "./CompanyBadge";
 
@@ -10,14 +9,6 @@ const HeroScene = lazy(() =>
   import("@/components/HeroScene").then((m) => ({ default: m.HeroScene })),
 );
 
-=======
-import { useEffect, useState } from "react";
-import { ArrowRight, Download, Mail, Sparkles } from "lucide-react";
-import portrait from "@/assets/gv-portrait.png";
-import { COMPANIES } from "./data";
-import { CompanyBadge } from "./CompanyBadge";
-
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
 const TITLES = [
   "Assistant Sales Executive",
   "Sales Professional",
@@ -29,11 +20,8 @@ const TITLES = [
 
 export function Hero() {
   const [idx, setIdx] = useState(0);
-<<<<<<< HEAD
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
-=======
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
   useEffect(() => {
     const id = setInterval(() => setIdx((i) => (i + 1) % TITLES.length), 2400);
     return () => clearInterval(id);
@@ -101,12 +89,6 @@ export function Hero() {
             <MagneticButton href="#contact">
               <Mail className="h-4 w-4" /> Contact Me
             </MagneticButton>
-<<<<<<< HEAD
-=======
-            <MagneticButton href="#contact">
-              <Download className="h-4 w-4" /> Download Resume
-            </MagneticButton>
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
             <MagneticButton href="#contact" variant="ghost">
               Start a Project <ArrowRight className="h-4 w-4" />
             </MagneticButton>
@@ -129,7 +111,6 @@ export function Hero() {
 
         {/* Right — Portrait + orbiting logos */}
         <div className="relative mx-auto aspect-square w-full max-w-[560px]">
-<<<<<<< HEAD
           {/* 3D floating objects */}
           {mounted && (
             <div className="pointer-events-none absolute inset-[-8%] z-0">
@@ -139,8 +120,6 @@ export function Hero() {
             </div>
           )}
 
-=======
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
           {/* Rings */}
           <div className="absolute inset-0 animate-spin-slow rounded-full border border-white/10" />
           <div className="absolute inset-6 animate-spin-reverse rounded-full border border-dashed border-white/10" />

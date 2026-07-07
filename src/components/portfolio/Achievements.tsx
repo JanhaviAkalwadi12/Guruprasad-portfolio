@@ -15,17 +15,17 @@ export function Achievements() {
         {ACHIEVEMENTS.map((a, i) => (
           <motion.div
             key={a.title}
-<<<<<<< HEAD
+
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10% 0px" }}
             transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1], delay: i * 0.04 }}
-=======
+
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.05 }}
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
+
             className="group relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.01] p-6 transition-all hover:-translate-y-1 hover:border-fuchsia-400/40"
             data-cursor-hover
           >
@@ -43,17 +43,17 @@ export function Achievements() {
         {CERTIFICATIONS.map((c, i) => (
           <motion.div
             key={c.title}
-<<<<<<< HEAD
+
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-10% 0px" }}
             transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1], delay: i * 0.04 }}
-=======
+
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.05 }}
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
+
             className="glass group rounded-2xl p-6 transition-all hover:-translate-y-1 hover:border-cyan-400/40"
           >
             <GraduationCap className="h-6 w-6 text-cyan-300" />

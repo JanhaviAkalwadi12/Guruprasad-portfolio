@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
 import { ArrowUp, ExternalLink, Heart, Linkedin, Mail, Phone } from "lucide-react";
-<<<<<<< HEAD
-import logo from "@/assets/gv-logo.png.asset.json";
-=======
 import logo from "@/assets/gv-logo.png";
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
 
 export function Footer() {
   const [show, setShow] = useState(false);
@@ -18,11 +14,7 @@ export function Footer() {
       <div className="pointer-events-none absolute inset-x-0 -top-20 h-40 bg-gradient-to-b from-fuchsia-500/10 to-transparent blur-2xl" />
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 px-6 md:flex-row">
         <div className="flex items-center gap-3">
-<<<<<<< HEAD
-          <img src={logo.url} alt="GV" className="h-10 w-10 rounded-lg ring-1 ring-white/10" />
-=======
           <img src={logo} alt="GV" className="h-10 w-10 rounded-lg ring-1 ring-white/10" />
->>>>>>> 87a364204bc7e090ea92dee4ec01d1c1f80bb2ec
           <div>
             <div className="text-sm font-semibold text-white">Guruprasad H Vankalakunti</div>
             <div className="text-xs text-white/50">Growth · Vision · Value</div>
