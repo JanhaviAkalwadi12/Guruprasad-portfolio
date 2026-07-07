@@ -22,45 +22,45 @@ var public_assets_data_default = {
 		"size": 20373,
 		"path": "../public/favicon.ico"
 	},
-	"/assets/index-BO_f0RQr.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"5457a-zDdaSKWH9w8xTGdPrDfQVCKFThY\"",
-		"mtime": "2026-07-07T07:35:36.250Z",
-		"size": 345466,
-		"path": "../public/assets/index-BO_f0RQr.js"
-	},
 	"/assets/routes-Bjtfwxwo.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"33b4e-MqIVpRHqtQS6evQuBENa+IPhDhE\"",
-		"mtime": "2026-07-07T07:35:36.252Z",
+		"mtime": "2026-07-07T07:37:38.675Z",
 		"size": 211790,
 		"path": "../public/assets/routes-Bjtfwxwo.js"
 	},
 	"/assets/styles-DZFSaXYK.css": {
 		"type": "text/css; charset=utf-8",
 		"etag": "\"1a003-qjvK0UuMmHAj4VH+gblBLBzTBvE\"",
-		"mtime": "2026-07-07T07:35:36.266Z",
+		"mtime": "2026-07-07T07:37:38.683Z",
 		"size": 106499,
 		"path": "../public/assets/styles-DZFSaXYK.css"
+	},
+	"/assets/index-BO_f0RQr.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"5457a-zDdaSKWH9w8xTGdPrDfQVCKFThY\"",
+		"mtime": "2026-07-07T07:37:38.671Z",
+		"size": 345466,
+		"path": "../public/assets/index-BO_f0RQr.js"
 	},
 	"/assets/HeroScene-ingMEjFR.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"e485d-QaFjGlqLb8X8/71N4WjP63ABaGA\"",
-		"mtime": "2026-07-07T07:35:36.252Z",
+		"mtime": "2026-07-07T07:37:38.675Z",
 		"size": 936029,
 		"path": "../public/assets/HeroScene-ingMEjFR.js"
 	},
 	"/assets/gv-logo-DlR8QBtY.png": {
 		"type": "image/png",
 		"etag": "\"19bcc0-rUe8TAZQE/88XxVFiIr3f4dZ5vo\"",
-		"mtime": "2026-07-07T07:35:36.260Z",
+		"mtime": "2026-07-07T07:37:38.678Z",
 		"size": 1686720,
 		"path": "../public/assets/gv-logo-DlR8QBtY.png"
 	},
 	"/assets/gv-portrait-l6o8TalU.png": {
 		"type": "image/png",
 		"etag": "\"25ac3e-Anwnyf8no+rzr0CzymfvZmdRTIw\"",
-		"mtime": "2026-07-07T07:35:36.260Z",
+		"mtime": "2026-07-07T07:37:38.683Z",
 		"size": 2468926,
 		"path": "../public/assets/gv-portrait-l6o8TalU.png"
 	}
