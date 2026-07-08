@@ -1,13 +1,9 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { lazy, Suspense, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowRight, Mail, Sparkles } from "lucide-react";
 import portrait from "@/assets/gv-portrait.png";
 import { COMPANIES } from "./data";
 import { CompanyBadge } from "./CompanyBadge";
-
-const HeroScene = lazy(() =>
-  import("@/components/HeroScene").then((m) => ({ default: m.HeroScene })),
-);
 
 const TITLES = [
   "Assistant Sales Executive",
@@ -20,8 +16,6 @@ const TITLES = [
 
 export function Hero() {
   const [idx, setIdx] = useState(0);
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
   useEffect(() => {
     const id = setInterval(() => setIdx((i) => (i + 1) % TITLES.length), 2400);
     return () => clearInterval(id);
@@ -111,15 +105,6 @@ export function Hero() {
 
         {/* Right — Portrait + orbiting logos */}
         <div className="relative mx-auto aspect-square w-full max-w-[560px]">
-          {/* 3D floating objects */}
-          {mounted && (
-            <div className="pointer-events-none absolute inset-[-8%] z-0">
-              <Suspense fallback={null}>
-                <HeroScene />
-              </Suspense>
-            </div>
-          )}
-
           {/* Rings */}
           <div className="absolute inset-0 animate-spin-slow rounded-full border border-white/10" />
           <div className="absolute inset-6 animate-spin-reverse rounded-full border border-dashed border-white/10" />
@@ -163,7 +148,24 @@ export function Hero() {
             );
           })}
 
-          
+          {/* Floating chips */}
+          {[
+            { t: "+38% Growth", top: "6%", left: "0%" },
+            { t: "100+ Retailers", top: "88%", left: "10%" },
+            { t: "112% Target", top: "10%", left: "82%" },
+            { t: "1000+ Customers", top: "84%", left: "78%" },
+          ].map((f, i) => (
+            <motion.div
+              key={f.t}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1 + i * 0.15 }}
+              className="glass absolute rounded-full px-3 py-1 text-[11px] font-medium text-white/80"
+              style={{ top: f.top, left: f.left }}
+            >
+              {f.t}
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
