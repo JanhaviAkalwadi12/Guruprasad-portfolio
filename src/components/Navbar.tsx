@@ -26,7 +26,7 @@ export function Navbar() {
     >
       <div className="flex items-center justify-between px-4 md:px-6">
         <a href="#home" className="flex items-center gap-3">
-          <img src={logo.url} alt="GV" className="h-10 w-10 rounded-lg object-cover ring-1 ring-white/10" />
+          <img src={logo} alt="GV" className="h-10 w-10 rounded-lg object-cover ring-1 ring-white/10" />
           <div className="hidden leading-tight sm:block">
             <div className="text-sm font-semibold">Guruprasad H Vankalakunti</div>
             <div className="text-[11px] text-muted-foreground">Sales & Marketing Professional</div>

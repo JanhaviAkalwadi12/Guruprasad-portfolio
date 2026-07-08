@@ -130,7 +130,7 @@ export function Hero() {
 
           {/* Portrait */}
           <div className="absolute inset-[18%] overflow-hidden rounded-full ring-1 ring-white/20 glow-purple">
-            <img src={portrait.url} alt="Guruprasad H Vankalakunti" className="h-full w-full object-cover" />
+            <img src={portrait} alt="Guruprasad H Vankalakunti" className="h-full w-full object-cover" />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           </div>
 
@@ -163,24 +163,7 @@ export function Hero() {
             );
           })}
 
-          {/* Floating chips */}
-          {[
-            { t: "+38% Growth", top: "6%", left: "0%" },
-            { t: "100+ Retailers", top: "88%", left: "10%" },
-            { t: "112% Target", top: "10%", left: "82%" },
-            { t: "1000+ Customers", top: "84%", left: "78%" },
-          ].map((f, i) => (
-            <motion.div
-              key={f.t}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1 + i * 0.15 }}
-              className="glass absolute rounded-full px-3 py-1 text-[11px] font-medium text-white/80"
-              style={{ top: f.top, left: f.left }}
-            >
-              {f.t}
-            </motion.div>
-          ))}
+          
         </div>
       </div>
     </section>
