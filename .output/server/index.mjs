@@ -15,6 +15,13 @@ globalThis.__nitro_vite_envs__ = services;
 //#endregion
 //#region #nitro/virtual/public-assets-data
 var public_assets_data_default = {
+	"/assets/routes-Bjtfwxwo.js": {
+		"type": "text/javascript; charset=utf-8",
+		"etag": "\"33b4e-MqIVpRHqtQS6evQuBENa+IPhDhE\"",
+		"mtime": "2026-07-08T07:18:21.221Z",
+		"size": 211790,
+		"path": "../public/assets/routes-Bjtfwxwo.js"
+	},
 	"/favicon.ico": {
 		"type": "image/vnd.microsoft.icon",
 		"etag": "\"4f95-3RXc3p2mhEAs1WBwaIvE0Y0uu0Y\"",
@@ -22,45 +29,38 @@ var public_assets_data_default = {
 		"size": 20373,
 		"path": "../public/favicon.ico"
 	},
-	"/assets/routes-Bjtfwxwo.js": {
-		"type": "text/javascript; charset=utf-8",
-		"etag": "\"33b4e-MqIVpRHqtQS6evQuBENa+IPhDhE\"",
-		"mtime": "2026-07-07T07:46:22.341Z",
-		"size": 211790,
-		"path": "../public/assets/routes-Bjtfwxwo.js"
+	"/assets/styles-DZFSaXYK.css": {
+		"type": "text/css; charset=utf-8",
+		"etag": "\"1a003-qjvK0UuMmHAj4VH+gblBLBzTBvE\"",
+		"mtime": "2026-07-08T07:18:21.232Z",
+		"size": 106499,
+		"path": "../public/assets/styles-DZFSaXYK.css"
 	},
 	"/assets/index-BO_f0RQr.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"5457a-zDdaSKWH9w8xTGdPrDfQVCKFThY\"",
-		"mtime": "2026-07-07T07:46:22.338Z",
+		"mtime": "2026-07-08T07:18:21.217Z",
 		"size": 345466,
 		"path": "../public/assets/index-BO_f0RQr.js"
-	},
-	"/assets/styles-DZFSaXYK.css": {
-		"type": "text/css; charset=utf-8",
-		"etag": "\"1a003-qjvK0UuMmHAj4VH+gblBLBzTBvE\"",
-		"mtime": "2026-07-07T07:46:22.350Z",
-		"size": 106499,
-		"path": "../public/assets/styles-DZFSaXYK.css"
 	},
 	"/assets/HeroScene-ingMEjFR.js": {
 		"type": "text/javascript; charset=utf-8",
 		"etag": "\"e485d-QaFjGlqLb8X8/71N4WjP63ABaGA\"",
-		"mtime": "2026-07-07T07:46:22.340Z",
+		"mtime": "2026-07-08T07:18:21.219Z",
 		"size": 936029,
 		"path": "../public/assets/HeroScene-ingMEjFR.js"
 	},
 	"/assets/gv-logo-DlR8QBtY.png": {
 		"type": "image/png",
 		"etag": "\"19bcc0-rUe8TAZQE/88XxVFiIr3f4dZ5vo\"",
-		"mtime": "2026-07-07T07:46:22.345Z",
+		"mtime": "2026-07-08T07:18:21.225Z",
 		"size": 1686720,
 		"path": "../public/assets/gv-logo-DlR8QBtY.png"
 	},
 	"/assets/gv-portrait-l6o8TalU.png": {
 		"type": "image/png",
 		"etag": "\"25ac3e-Anwnyf8no+rzr0CzymfvZmdRTIw\"",
-		"mtime": "2026-07-07T07:46:22.349Z",
+		"mtime": "2026-07-08T07:18:21.232Z",
 		"size": 2468926,
 		"path": "../public/assets/gv-portrait-l6o8TalU.png"
 	}
